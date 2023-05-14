@@ -1,7 +1,7 @@
 const express = require('express')
 const { performance } = require('perf_hooks');
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = 'mongodb+srv://Fidgeting:0J5XSU55nH56Mijw@testcluster.vnwjzfa.mongodb.net/?retryWrites=true&w=majority'
+// const uri = 'mongodb url here'
 const Redis = require('redis')
 const redisClient = Redis.createClient()
 redisClient.connect();
