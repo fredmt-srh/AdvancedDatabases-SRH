@@ -1,6 +1,7 @@
 const express = require('express')
 const { performance } = require('perf_hooks');
 const { MongoClient, ServerApiVersion } = require('mongodb');
+// Github detects that there is an exposed mongodb url here, so I changed it
 // const uri = 'mongodb url here'
 const Redis = require('redis')
 const redisClient = Redis.createClient()
